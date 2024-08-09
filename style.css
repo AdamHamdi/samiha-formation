@@ -1,0 +1,83 @@
+.parent {
+    background-color: aquamarine;
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    justify-content: flex-end;
+}
+.parent-2 {
+    background-color: yellowgreen;
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+.parent-3 {
+    background-color: rgb(255, 178, 127);
+    height: 300px;
+    width: 1200px;
+    display: flex;
+  
+}
+.child {
+    width: 600px;
+    height: 50%;
+    background: burlywood;
+    padding: 25px;
+}
+.parent-4 {
+    background: #ffff00 url('./assets/image/image-1.jfif');
+    
+    height: 600px;
+    width: 1200px;
+    border: 1px solid red;
+    background-repeat: no-repeat;
+  
+    background-position: center;
+    background-attachment: fixed;
+}
+.parent-5{
+    height: 45px;
+    width: 45px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.parent-6{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url('./assets/image/image-1.jfif');
+    background-position: center;
+    position: relative;
+    
+}
+.parent-6 button{
+     position: absolute;
+     background-color: rgb(97, 106, 230);
+     border: 0;
+     box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+     width: 35px;
+     height: 35px;
+     color: white;
+     border-radius: 17px;
+     right: -5px;
+     bottom: 0;
+    
+}
+  
+ .parent-7{
+    position: relative;
+ }
+ .parent-7::before{
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 18px;
+    border-radius: 5px;
+    background-color: blue;
+    left: 5px;
+ }
